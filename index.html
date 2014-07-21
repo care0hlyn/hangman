@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Hang Man</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hang Man</h1>
+
+      <div class="hang-man">
+        <div class="row">
+          <div class="col-md-3" class="left">
+            -------------------------------------
+          </div><!--div for col 1-->
+        </div><!--div for row 1-->
+        <div class="row">
+          <div class="col-md-3" class="right">
+            /--\ "head" </br>
+            \--/
+          </div><!--div for col 1, row 2-->
+          <div class="col-md-3" class="right">
+            |</br>
+            |</br>
+            |
+          </div>
+        </div><!--div for row 2-->
+        <div class="row">
+          <div class="col-md-3">
+            | "neck"
+          </div>
+          <div class="col-md-3" class="right">
+            |</br>
+            |</br>
+            |
+          </div>
+        </div><!--div for row 2, col 1-->
+
+        <div class="row">
+          <div class="col-md-3">
+            ------------ "arms"
+          </div>
+          <div class="col-md-3" class="right">
+            |</br>
+            |</br>
+            |
+          </div>
+        </div><!--div for row 3, col 1-->
+
+        <div class="row">
+          <div class="col-md-3">
+            | "body" </br>
+            |</br>
+          </div>
+          <div class="col-md-3" class="right">
+            |</br>
+            |</br>
+            |
+          </div>
+        </div><!--div for row 3, col 1-->
+
+        <div class="row">
+          <div class="col-md-3">
+             /--\ "legs" </br>
+             ----
+            /    \
+          </div>
+          <div class="col-md-3" class="right">
+            |</br>
+            |</br>
+            |
+          </div>
+        </div><!--div for row 3, col 1-->
+
+        <div class="col-md-3">
+          <form class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Letter">
+
+            <button type="submit" class="btn btn-primary">Primary</button>
+          </form>
+        </div>
+
+      </div><!--div for class hangman-->
+    </div> <!--div for the entire hang-man-->
+  </body>
+</html>
